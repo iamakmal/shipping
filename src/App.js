@@ -3,6 +3,7 @@ import Slider from './components/Slider';
 import Welcome from './components/Welcome';
 import Service from './components/Service';
 import Stats from './components/Stats';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
    <Welcome/>
    <Service/>
    <Stats/>
+   <Testimonials/>
    </>
   );
 }
