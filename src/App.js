@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import Welcome from './components/Welcome';
+import Service from './components/Service';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
    <Navbar/>
    <Slider/>
    <Welcome/>
+   <Service/>
    </>
   );
 }
