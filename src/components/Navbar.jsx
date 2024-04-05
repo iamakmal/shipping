@@ -27,7 +27,7 @@ export default function Navbar() {
     <ul className="menu menu-horizontal px-1">
       <li>
         <details>
-          <summary className='text-lg font-medium'>Home</summary>
+          <summary className='text-lg font-medium'><span className='text-yellow font-bold'>|</span>Home</summary>
           <ul className="p-2">
             <li><a>Submenu 1</a></li>
             <li><a>Submenu 2</a></li>
