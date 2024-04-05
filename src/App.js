@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import Welcome from './components/Welcome';
 import Service from './components/Service';
+import Stats from './components/Stats';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
    <Slider/>
    <Welcome/>
    <Service/>
+   <Stats/>
    </>
   );
 }
