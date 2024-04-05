@@ -66,8 +66,8 @@ export default function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn btn-warning text-white rounded-none">GET A QUOTE</a>
-    <a className="btn bg-[#171717] mx-8 text-white rounded-none">SIGN IN</a>
+    <a className="btn bg-yellow text-white rounded-none">GET A QUOTE</a>
+    <a className="btn bg-black mx-8 text-white rounded-none">SIGN IN</a>
   </div>
 </div>
         </>
