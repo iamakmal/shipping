@@ -12,7 +12,7 @@ export default function News() {
 
     <div className="flex justify-center items-center space-x-10 px-10">
 
-    <div className="relative card card-side bg-base-100 shadow-xl h-72 rounded-none">
+    <div className="relative card card-side bg-base-100 shadow-lg h-72 rounded-none">
         <figure className="w-1/3">
             <img src="./news1.jpg" alt="air" className="w-full h-full object-cover" />
         </figure>
@@ -29,7 +29,7 @@ export default function News() {
         </div>
     </div>
 
-    <div className="relative card card-side bg-base-100 shadow-xl h-72 rounded-none">
+    <div className="relative card card-side bg-base-100 shadow-lg h-72 rounded-none">
         <figure className="w-1/3">
             <img src="./news2.jpeg" alt="air" className="w-full h-full object-cover" />
         </figure>
@@ -49,7 +49,7 @@ export default function News() {
 
 <div className="flex justify-center items-center space-x-10 px-10 mt-10">
 
-<div className="relative card card-side bg-base-100 shadow-xl h-72 rounded-none">
+<div className="relative card card-side bg-base-100 shadow-lg h-72 rounded-none">
     <figure className="w-1/3">
         <img src="./news3.jpg" alt="air" className="w-full h-full object-cover" />
     </figure>
@@ -66,7 +66,7 @@ export default function News() {
     </div>
 </div>
 
-<div className="relative card card-side bg-base-100 shadow-xl h-72 rounded-none">
+<div className="relative card card-side bg-base-100 shadow-lg h-72 rounded-none">
     <figure className="w-1/3">
         <img src="./news4.jpg" alt="air" className="w-full h-full object-cover" />
     </figure>

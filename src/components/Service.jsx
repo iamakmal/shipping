@@ -1,4 +1,5 @@
 import React from 'react'
+import {ArrowRightCircleIcon} from '@heroicons/react/24/solid'
 
 export default function Service() {
     return (
@@ -17,8 +18,8 @@ export default function Service() {
                             <p className="text-xl text-gray-600">
                                 At our Auto Service garage, we are fully appreciate how difficult occur it is for people to find.
                             </p>
-                            <div className="card-actions justify-end mt-auto">
-                                <button className="btn btn-primary">Read More</button>
+                            <div className="card-actions justify-start mt-auto">
+                                <a><p className="text-large font-bold flex items-center"><ArrowRightCircleIcon className="h-6 w-6"/> Read More</p></a>
                             </div>
                         </div>
                     </div>
@@ -33,8 +34,8 @@ export default function Service() {
                             <p className="text-xl text-gray-600">
                                 These are unique and often they differ from one industry to the other. Our logistics expertise.
                             </p>
-                            <div className="card-actions justify-end mt-auto">
-                                <button className="btn btn-primary">Read More</button>
+                            <div className="card-actions justify-start mt-auto">
+                            <a><p className="text-large font-bold flex items-center"><ArrowRightCircleIcon className="h-6 w-6"/> Read More</p></a>
                             </div>
                         </div>
                     </div>

@@ -6,6 +6,7 @@ import Stats from './components/Stats';
 import Testimonials from './components/Testimonials';
 import Clients from './components/Clients';
 import News from './components/News';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
    <Testimonials/>
    <Clients/>
    <News/>
+   <Footer/>
    </>
   );
 }

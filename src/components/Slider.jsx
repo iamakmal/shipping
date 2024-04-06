@@ -1,4 +1,6 @@
 import React from 'react'
+import {ArrowLongLeftIcon} from '@heroicons/react/24/solid'
+import {ArrowLongRightIcon} from '@heroicons/react/24/solid'
 
 export default function Slider() {
   return (
@@ -11,9 +13,9 @@ export default function Slider() {
     <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <a className="btn bg-yellow text-white mt-10 rounded-none">Discover More</a>
 
-    <div className="mt-16">
-    <a className="btn bg-yellow text-white">❮</a>
-    <a className="btn bg-yellow text-white mx-5">❯</a>
+    <div className="mt-16 flex justify-center items-center h-auto w-24 bg-yellow p-2">
+    <a><ArrowLongLeftIcon className="h-8 w-8 text-white"/></a>
+    <a><ArrowLongRightIcon className="h-8 w-8 text-white"/></a>
     </div>
   </div>
   <div className="w-1/2 mr-32">
