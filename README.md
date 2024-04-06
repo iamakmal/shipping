@@ -1,3 +1,6 @@
+Vercel Deployed Link - https://shipping-liart.vercel.app/
+
+This is developed using React, while using Daisy UI (Tailwind) for styling purpose. 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
