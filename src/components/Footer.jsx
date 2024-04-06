@@ -7,8 +7,8 @@ import ServiceImage from './ServiceImage'
 export default function Footer() {
     return (
         <div className="bg-[#5D6C83] mt-20 p-8">
-            <div className="flex justify-center items-center space-x-80 px-10">
-                <div className="mr-10">
+            <div className="relative flex justify-center items-center space-x-80 px-10 mb-10">
+                <div className="absolute top-0 left-10 mr-10">
                     <h1 className="text-3xl font-semibold text-left text-gray-100 mb-5">Weekly Newsletter</h1>
                     <h1 className="text-sm font-semibold text-left text-gray-200">There are many passages of lorem ipsum available</h1>
                 </div>
